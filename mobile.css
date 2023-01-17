@@ -1,0 +1,76 @@
+#navbar{
+    height: 230px;
+}
+#navbar-container{
+    flex-direction: column;
+    padding: 5px 0;
+}
+#navbar-itens{
+    flex-direction: column;
+    text-align: center;
+}
+#navbar-itens li:nth-child(2){
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+#navbar-itens li:nth-child(4){
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+
+}
+/*Showcase*/
+#showcase-container{
+    padding: 40px;
+    margin-top: 160px;
+}
+#showcase-container h2{
+    font-size: 2.5rem;
+}
+#showcase-container p{
+    font-size: 1.4rem;
+}
+
+
+/*redes*/
+#redes-container{
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px;
+}
+.client{
+    width: 50%;
+}
+/*servicos*/
+#servicos-container{
+    grid-template-columns: 1fr;    
+}
+.headline{
+    margin-top: 100px;
+}
+#servicos-container .servico:nth-child(2){
+    margin: 15px 0;
+}
+.servico{
+    align-items: center;
+}
+/*sobre*/
+#sobre{
+    flex-direction: column;
+    text-align: center;
+}
+#sobre-container{
+    width: 100%;
+}
+.testimonial .testimonial-image{
+    margin-bottom: 10px;
+}
+/*Galery*/
+#gallery-container{
+    grid-template-columns: 1fr;
+}
+.gallery-image{
+    width: 100%;
+    height: auto;
+}
+.testimonial{
+    flex-direction: column;
+}
